@@ -1,44 +1,28 @@
-# Telecom Plans Comparison
+# Video Games Market Analysis
 
 ## Data
 
-The work based on the toy data provided by Yandex.Practicum. It comes in five separate data sets:
-#### users
-- first name
-- last name
-- age
-- subscription date
-- churn date
-- city
-- plan name
-#### calls
-- call date
-- duration
-#### messages
-- message date
-#### internet
-- megabytes spent while in the session
-- web session date
-#### plans
-- plan name
-- monthly charge
-- monthly minute allowance
-- monthly text allowance
-- data megabytes allowance
-- price per call minute
-- price per text
-- price per gigabyte
-
+The work based on the historical data on game sales provided by Yandex.Practicum. It contains:
+- name
+- platform
+- year of release
+- genre
+- North America sales
+- Europe sales
+- Japan sales
+- Other sales
+- critic score
+- user score
+- ESRB rating
 ## Task
-1. Exploratory analysis
-   1. Describe the customers behavior
-   2. Explore the main statistics and distributions
-   3. Visualize the findings
-2. Test the hypotheses
-   1. The average profit from users of different plans differ
-   2. The average profit from users in NY-NJ area differs from that of the users from other regions
+1. Data preprocessing
+2. Exploratory analysis
+3. Test the hypotheses
+   1. Average user ratings of the Xbox One and PC platforms are the same
+   2. Average user ratings for the Action and Sports genres are different
 
 ## Libraries used
-*pandas*
-*numpy*
-*matplotlib*
+*pandas*,
+*numpy*,
+*matplotlib*,
+*seaborn*
