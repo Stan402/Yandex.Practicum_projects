@@ -1,28 +1,22 @@
-# Video Games Market Analysis
-
+# Chicago Taxi Rides
 ## Data
 
-The work based on the historical data on game sales provided by Yandex.Practicum. It contains:
-- name
-- platform
-- year of release
-- genre
-- North America sales
-- Europe sales
-- Japan sales
-- Other sales
-- critic score
-- user score
-- ESRB rating
+This work build on top of the previous tasks of retrieving the data from SQL base. It contains the summary informations:
+#### summaries
+- taxi compani name
+- the number of rides for each company on November 15-16, 2017
+- the average number of rides that ended in each neighbourhood in November 2017
+- Chicago neibourhoods where rides ended
+#### trips
+- pickup date and time
+- weather conditions
+- ride duration
 ## Task
-1. Data preprocessing
-2. Exploratory analysis
-3. Test the hypotheses
-   1. Average user ratings of the Xbox One and PC platforms are the same
-   2. Average user ratings for the Action and Sports genres are different
-
+1. Exploratory analysis
+2. Test the hypotheses
+   - The average duration of rides from the Loop to O'Hare International Airport changes on rainy Saturdays
+   
 ## Libraries used
 *pandas*,
 *numpy*,
-*matplotlib*,
-*seaborn*
+*matplotlib*
