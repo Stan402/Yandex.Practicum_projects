@@ -1,28 +1,33 @@
-# Video Games Market Analysis
+# Bank Customers Classification
 
 ## Data
 
-The work based on the historical data on game sales provided by Yandex.Practicum. It contains:
-- name
-- platform
-- year of release
-- genre
-- North America sales
-- Europe sales
-- Japan sales
-- Other sales
-- critic score
-- user score
-- ESRB rating
+The work based on the toy data on some Bank customers provided by Yandex.Practicum. It contains:
+- surname
+- credit score
+- country of residence
+- gender
+- age
+- period of maturation for a customer's deposit
+- account balance
+- number of banking products used by the customer
+- customer has a credit card
+- customer activeness
+- estimated salary
+- customer has left (target)
+
 ## Task
-1. Data preprocessing
-2. Exploratory analysis
-3. Test the hypotheses
-   1. Average user ratings of the Xbox One and PC platforms are the same
-   2. Average user ratings for the Action and Sports genres are different
+To build a model to predict whether a customer will leave the bank soon.
+
+## Details
+- dealing with imbalanced class 
+- implemented custom cross-validation for upsample and downsample techniques
+
+## Machine Learning Algorithmes used
+*LogisticRegressor*, *DecisionTreeClassifier*, *RandomForestClassifier*
 
 ## Libraries used
 *pandas*,
 *numpy*,
 *matplotlib*,
-*seaborn*
+*scikit-learn*
