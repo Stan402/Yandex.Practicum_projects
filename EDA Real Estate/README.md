@@ -1,42 +1,37 @@
-# Telecom Plans Comparison
+# Exploratory Data Analysis of St Petersburg Real Estate
 
 ## Data
 
-The work based on the toy data provided by Yandex.Practicum. It comes in five separate data sets:
-#### users
-- first name
-- last name
-- age
-- subscription date
-- churn date
-- city
-- plan name
-#### calls
-- call date
-- duration
-#### messages
-- message date
-#### internet
-- megabytes spent while in the session
-- web session date
-#### plans
-- plan name
-- monthly charge
-- monthly minute allowance
-- monthly text allowance
-- data megabytes allowance
-- price per call minute
-- price per text
-- price per gigabyte
+The work based on the data from Yandex.Realty's archive of property ads for St. Petersburg. We had following variables to work with:
+- distance to the airport
+- number of balconies
+- ceiling height
+- distance to the city center
+- days the ad was displayed
+- the publication date
+- the apartment floor number
+- the total number of floors in the building
+- existence of the bike parking
+- the kitchen area
+- the last price (at the time of ad removal)
+- the living area
+- the locality name
+- is open plan design
+- the number of parks in a 3 km radius
+- the distance to the nearest park
+- the number of bodies of water in a 3 km radius
+- the distance to the nearest body of water
+- the number of bedrooms
+- is a studio
+- the total area
+- the number of photos in the ad
 
 ## Task
-1. Exploratory analysis
-   1. Describe the customers behavior
-   2. Explore the main statistics and distributions
+1. Data preprocessing
+2. Exploratory analysis
+   1. Explore all the basic parameters and its influence on the price
+   2. Remove the outliers
    3. Visualize the findings
-2. Test the hypotheses
-   1. The average profit from users of different plans differ
-   2. The average profit from users in NY-NJ area differs from that of the users from other regions
 
 ## Libraries used
 *pandas*
