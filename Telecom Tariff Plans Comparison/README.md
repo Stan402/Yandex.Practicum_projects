@@ -1,6 +1,6 @@
 # Telecom Plans Comparison
 
-## The Data
+## Data
 
 The work based on the toy data provided by Yandex.Practicum. It comes in five separate data sets:
 #### users
@@ -14,11 +14,31 @@ The work based on the toy data provided by Yandex.Practicum. It comes in five se
 #### calls
 - call date
 - duration
-- user id
 #### messages
 - message date
-- user id
 #### internet
 - megabytes spent while in the session
 - web session date
-- user id
+#### plans
+- plan name
+- monthly charge
+- monthly minute allowance
+- monthly text allowance
+- data megabytes allowance
+- price per call minute
+- price per text
+- price per gigabyte
+
+## Task
+1. Exploratory analysis
+   1. Describe the customers behavior
+   2. Explore the main statistics and distributions
+   3. Visualize the findings
+2. Test the hypotheses
+   1. The average profit from users of different plans differ
+   2. The average profit from users in NY-NJ area differs from that of the users from other regions
+
+## Libraries used
+*pandas*
+*numpy*
+*matplotlib*
