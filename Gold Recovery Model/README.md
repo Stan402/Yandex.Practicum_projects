@@ -41,8 +41,8 @@ To evaluate the model we should use symmetric Mean Absolute Percentage Error (sM
 final sMAPE = 25% * sMAPE(rougher) + 75% * sMAPE(final)
 
 ## Details
-- dealing with imbalanced class 
-- implemented custom cross-validation for upsample and downsample techniques
+- dealing with Multioutput regression 
+- implemented custom metric
 
 ## Machine Learning Algorithmes used
 *RandomForestRegressor*, *GradientBoostingRegressor*, *AdaBoostRegressor*, *MultiOutputRegressor*, *Lasso*, *Ridge*, *ElasticNet*
